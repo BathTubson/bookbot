@@ -24,4 +24,4 @@ def letter_printer():
             print("The '" + letter + "' character was found " + str(letter_dict[letter]) + " times")
 
 letter_printer()
-#main()
+main()
