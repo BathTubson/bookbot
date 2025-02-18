@@ -6,6 +6,7 @@ def main():
         for word in file_contents.split():
             word_counter += 1
         return word_counter
+    
 def letter_counter():
     letter_dict = {}
     with open("./books/book.txt") as f:
@@ -23,5 +24,6 @@ def letter_printer():
         if letter.isalpha() == True:
             print("The '" + letter + "' character was found " + str(letter_dict[letter]) + " times")
 
-letter_printer()
+
 main()
+letter_printer()
