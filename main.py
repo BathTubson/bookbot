@@ -5,6 +5,7 @@ def main():
         print(file_contents)
         for word in file_contents.split():
             word_counter += 1
+        print(word_counter)
         return word_counter
 
 
